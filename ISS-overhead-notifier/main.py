@@ -6,8 +6,8 @@ import time
 MY_LAT = -27.469770
 MY_LONG = 153.025131
 
-MY_EMAIL = "pythontest6568@gmail.com"
-PASSWORD = "lima101010"
+MY_EMAIL = "YOUR EMAIL"
+PASSWORD = "YOUR PASSWORD"
 
 def is_iss_overhead():
 
@@ -51,5 +51,5 @@ while True:
         connection.sendmail(
             from_addr=MY_EMAIL,
             to_addrs="celisgabriel97@gmail.com",
-            msg="Subject:Olha pra cima👆\n\nA estação espacial internacional está passando por cima de você agora maninho!"
+            msg="Subject:Olha pra cima👆\n\nA estação espacial internacional está passando por cima de você agora!"
         )
